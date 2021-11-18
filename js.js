@@ -28,6 +28,7 @@ button2.onclick=function(){
         p[i].style.fontSize="34pt";
     }
 };
+// 4 задание
 
 function onover(){
     var img = document.getElementById("image");
