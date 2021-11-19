@@ -10,14 +10,13 @@
 
 //3 задание
 
-var color_text
-function over(){
-    color_text = document.getElementById("First_p");
+var color_text = document.getElementById("First_p");
+color_text.onmouseover = function (){
     color_text.style.backgroundColor = "black";
     color_text.style.color="white";
 }
-function out(){
-    color_text = document.getElementById("First_p");
+
+color_text.onmouseout = function (){
     color_text.style.backgroundColor = "white";
     color_text.style.color="black";
 }
@@ -29,9 +28,9 @@ button2.onclick=function(){
     }
 };
 // 4 задание
-
-function onover(){
     var img = document.getElementById("image");
+    img.onmouseover = function(){
+
     img.style.position = "absolute";
     var max = 900;
 
@@ -46,8 +45,4 @@ function onover(){
 
     var right = Math.floor(Math.random() * max)+50;
     img.style.right = right+"px";
-
-
-
-
-}
+    }
