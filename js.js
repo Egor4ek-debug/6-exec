@@ -28,7 +28,7 @@ button2.onclick=function(){
     }
 };
 // 4 задание
-    var img = document.getElementById("image");
+   /* var img = document.getElementById("image");
     img.onmouseover = function(){
 
     img.style.position = "absolute";
@@ -45,4 +45,33 @@ button2.onclick=function(){
 
     var right = Math.floor(Math.random() * max)+50;
     img.style.right = right+"px";
+    }*/
+
+    for (i=0;i<3;i++){
+        if (i==0){
+            document.images[0].onclick = function(){
+        
+                document.images[1].src = "https://i.pinimg.com/236x/76/06/35/760635d91fc23f6a4383ceb62ace3f9a.jpg"
+        
+                document.images[0].src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAKlBMVEX///8AAAD7+/vY2NiqqqpLS0vV1dXr6+u3t7fR0dFmZmbGxsba2tpHR0fVJdOjAAABC0lEQVR4nO3cS24CQRBEQRiM+fr+1/UOs02pO3tkIg6Q0lvVrg4HAAAAAAAAAAAAAAAAAADgn7pcv0a7XlZHvXscZ3isznozJfB4XJ315zmp8Lk67OU0qfC0OuzlYwrP4+y0cODiTgu3YYObwjaFMYV1CmMK6xTGFNYpjCmsUxhTWKcwprBOYUxhncKYwjqFMYV1CmMK6xTGFNYpjCmsUxhTWKcwprBOYUxhncKYwjqFMYV1CmMK6xTGFNYpjCmsUxhTWKcwprBOYUxh3ccUDlzcaeHte5TbTguHU9jz/wsvkwp39AvrZ0rgeXXWm+0+IfA+7r4OsY22OggAAAAAAAAAAAAAAAAAAJjnF2i3D/Wf5qxnAAAAAElFTkSuQmCC"
+                
+            }
+        }
     }
+    
+    document.images[1].onclick = function(){
+        
+        document.images[1].src = "https://i.pinimg.com/236x/76/06/35/760635d91fc23f6a4383ceb62ace3f9a.jpg"
+
+        document.images[0].src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAKlBMVEX///8AAAD7+/vY2NiqqqpLS0vV1dXr6+u3t7fR0dFmZmbGxsba2tpHR0fVJdOjAAABC0lEQVR4nO3cS24CQRBEQRiM+fr+1/UOs02pO3tkIg6Q0lvVrg4HAAAAAAAAAAAAAAAAAADgn7pcv0a7XlZHvXscZ3isznozJfB4XJ315zmp8Lk67OU0qfC0OuzlYwrP4+y0cODiTgu3YYObwjaFMYV1CmMK6xTGFNYpjCmsUxhTWKcwprBOYUxhncKYwjqFMYV1CmMK6xTGFNYpjCmsUxhTWKcwprBOYUxhncKYwjqFMYV1CmMK6xTGFNYpjCmsUxhTWKcwprBOYUxh3ccUDlzcaeHte5TbTguHU9jz/wsvkwp39AvrZ0rgeXXWm+0+IfA+7r4OsY22OggAAAAAAAAAAAAAAAAAAJjnF2i3D/Wf5qxnAAAAAElFTkSuQmCC"
+        
+    }
+
+    document.images[0].onclick = function(){
+        
+        document.images[1].src = "https://i.pinimg.com/236x/76/06/35/760635d91fc23f6a4383ceb62ace3f9a.jpg"
+
+        document.images[0].src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAKlBMVEX///8AAAD7+/vY2NiqqqpLS0vV1dXr6+u3t7fR0dFmZmbGxsba2tpHR0fVJdOjAAABC0lEQVR4nO3cS24CQRBEQRiM+fr+1/UOs02pO3tkIg6Q0lvVrg4HAAAAAAAAAAAAAAAAAADgn7pcv0a7XlZHvXscZ3isznozJfB4XJ315zmp8Lk67OU0qfC0OuzlYwrP4+y0cODiTgu3YYObwjaFMYV1CmMK6xTGFNYpjCmsUxhTWKcwprBOYUxhncKYwjqFMYV1CmMK6xTGFNYpjCmsUxhTWKcwprBOYUxhncKYwjqFMYV1CmMK6xTGFNYpjCmsUxhTWKcwprBOYUxh3ccUDlzcaeHte5TbTguHU9jz/wsvkwp39AvrZ0rgeXXWm+0+IfA+7r4OsY22OggAAAAAAAAAAAAAAAAAAJjnF2i3D/Wf5qxnAAAAAElFTkSuQmCC"
+        
+    }
+
